@@ -1,0 +1,22 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My ToDO App</title>
+        <link rel="stylesheet" href="toDoApp.css"/>
+    </head>
+    <body> 
+        <h1>List of ToDo items:</h1> 
+        <ul id="listOfItems"> </ul> 
+        <form id="formInput">
+            <label for="items"> ToDo List:</label><br>
+            <input type="text" id="items" name="List Items" placeholder="type your items here">
+            <input id="button" type="submit" value="Add this item">
+        </form>
+        <script src="toDoApp.js"></script>
+        <!-- the script below is for local storage -->
+        <script src="toDoLocalStorage.js"></script>
+    </body>
+</html>
