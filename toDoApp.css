@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 20px 10px 10px;
+    background-color: rosybrown;
+}
+h1{
+    width: 15%;
+    font-size:larger;
+    text-decoration-color: seagreen;
+    background: rgb(70, 154, 180);
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+#formInput{
+    font-family: fantasy;
+    text-align: center;
+}
+#items{
+    background-color: thistle;
+    font-style: normal; 
+}
+#button{ 
+    background-color:aqua;
+    vertical-align: center; 
+}
+#listOfItems{
+    height: 20px;
+    cursor:pointer;
+}
+
+
